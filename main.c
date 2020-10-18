@@ -4,11 +4,12 @@
 int main()
 {
     float total,recebido,troco;
-    printf("Digite o valor total: ");
+    printf("Informe o valor total: ");
     scanf("%f",&total);
-    printf("Digite o valor recebido: ");
+    printf("Informe o valor recebido: ");
     scanf("%f",&recebido);
     troco=recebido-total;
     printf("Troco: %.2f",troco);
+    printf("Muito Obrigado");
     return 0;
 }
