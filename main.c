@@ -10,5 +10,6 @@ int main()
     scanf("%f",&recebido);
     troco=recebido-total;
     printf("Troco: %.2f",troco);
+    printf("Muito Obrigado");
     return 0;
 }
